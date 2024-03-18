@@ -278,24 +278,6 @@ void play_cutscene_music(u16 seqArgs) {
 /**
  * Called from threads: thread5_game_loop
  */
-void play_shell_music(void) {
-    play_music(SEQ_PLAYER_LEVEL, SEQUENCE_ARGS(4, SEQ_EVENT_POWERUP | SEQ_VARIATION), 0);
-    sCurrentShellMusic = SEQUENCE_ARGS(4, SEQ_EVENT_POWERUP | SEQ_VARIATION);
-}
-
-/**
- * Called from threads: thread5_game_loop
- */
-void stop_shell_music(void) {
-    if (sCurrentShellMusic != MUSIC_NONE) {
-        stop_background_music(sCurrentShellMusic);
-        sCurrentShellMusic = MUSIC_NONE;
-    }
-}
-
-/**
- * Called from threads: thread5_game_loop
- */
 
 #ifdef PERSISTENT_CAP_MUSIC
 static s8 sDoResetMusic = FALSE;

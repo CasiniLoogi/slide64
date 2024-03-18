@@ -263,7 +263,6 @@ u32 attack_object(struct Object *obj, s32 interaction) {
 void mario_stop_riding_object(struct MarioState *m) {
     if (m->riddenObj != NULL) {
         m->riddenObj->oInteractStatus = INT_STATUS_STOP_RIDING;
-        stop_shell_music();
         m->riddenObj = NULL;
     }
 }
@@ -278,7 +277,6 @@ void mario_grab_used_object(struct MarioState *m) {
 void mario_drop_held_object(struct MarioState *m) {
     if (m->heldObj != NULL) {
         if (m->heldObj->behavior == segmented_to_virtual(bhvKoopaShellUnderwater)) {
-            stop_shell_music();
         }
 
         obj_set_held_state(m->heldObj, bhvCarrySomethingDropped);
@@ -300,7 +298,6 @@ void mario_drop_held_object(struct MarioState *m) {
 void mario_throw_held_object(struct MarioState *m) {
     if (m->heldObj != NULL) {
         if (m->heldObj->behavior == segmented_to_virtual(bhvKoopaShellUnderwater)) {
-            stop_shell_music();
         }
 
         obj_set_held_state(m->heldObj, bhvCarrySomethingThrown);
@@ -1453,7 +1450,6 @@ u32 interact_koopa_shell(struct MarioState *m, UNUSED u32 interactType, struct O
 
             attack_object(obj, interaction);
             update_mario_sound_and_camera(m);
-            play_shell_music();
             mario_drop_held_object(m);
 
             //! Puts Mario in ground action even when in air, making it easy to
@@ -1859,8 +1855,8 @@ void mario_process_interactions(struct MarioState *m) {
 }
 
 void check_death_barrier(struct MarioState *m) {
-    if (m->pos[1] < m->floorHeight + 2048.0f) {
-        if (level_trigger_warp(m, WARP_OP_WARP_FLOOR) == 20 && !(m->flags & MARIO_FALL_SOUND_PLAYED)) {
+    if (m->pos[1] < m->floorHeight + 3072.0f) {
+        if (level_trigger_warp(m, WARP_OP_DEATH) == 20 && !(m->flags & MARIO_FALL_SOUND_PLAYED)) {
             play_sound(SOUND_MARIO_WAAAOOOW, m->marioObj->header.gfx.cameraToObject);
         }
     }

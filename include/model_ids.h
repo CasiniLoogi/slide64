@@ -256,6 +256,7 @@
 #define MODEL_LLL_FALLING_PLATFORM                0x3C        // lll_geo_000B80
 #define MODEL_LLL_LARGE_FALLING_PLATFORM          0x3D        // lll_geo_000B98
 #define MODEL_LLL_VOLCANO_FALLING_TRAP            0x53        // lll_geo_000EA8
+#define MODEL_SPINDEL_LAVA                        0x54
 
 // ddd
 #define MODEL_DDD_BOWSER_SUB_DOOR                 0x36        // ddd_geo_000478

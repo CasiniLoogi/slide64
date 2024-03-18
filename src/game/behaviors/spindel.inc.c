@@ -50,16 +50,20 @@ void bhv_spindel_loop(void) {
     } else if (shake == 0) {
         shake = 1;
     }
-
+    
+    // Shortly: Make Spindel work with whatever Y Angle is facing. (Y Angle when you call it in the Script.c of the level) 
     if (o->oTimer < shake * 8) {
         if (o->oSpindelMoveDirection == 0) {
-            o->oVelZ = 20 / shake;
+            o->oVelX = 20 * sins(o->oMoveAngleYaw) / shake;
+            o->oVelZ = 20 * coss(o->oMoveAngleYaw) / shake;
             o->oAngleVelPitch = 1024 / shake;
         } else {
-            o->oVelZ = -20 / shake;
+            o->oVelX = -20 * sins(o->oMoveAngleYaw) / shake;
+            o->oVelZ = -20 * coss(o->oMoveAngleYaw) / shake;
             o->oAngleVelPitch = -1024 / shake;
         }
 
+        o->oPosX += o->oVelX;
         o->oPosZ += o->oVelZ;
         o->oMoveAnglePitch += o->oAngleVelPitch;
 

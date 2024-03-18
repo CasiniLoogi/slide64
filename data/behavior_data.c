@@ -6079,4 +6079,14 @@ const BehaviorScript bhvIntroScene[] = {
     END_LOOP(),
 };
 
+const BehaviorScript bhvSpindelLava[] = {
+    BEGIN(OBJ_LIST_SURFACE),
+    OR_INT(oFlags, (OBJ_FLAG_SET_FACE_ANGLE_TO_MOVE_ANGLE | OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE)),
+    LOAD_COLLISION_DATA(spindel_lava_collision),
+    CALL_NATIVE(bhv_spindel_init),
+    BEGIN_LOOP(),
+        CALL_NATIVE(bhv_spindel_loop),
+        CALL_NATIVE(load_object_collision_model),
+    END_LOOP(),
+};
 

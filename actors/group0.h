@@ -16,6 +16,51 @@ extern const Gfx burn_smoke_seg4_sub_dl_model[];
 extern const Gfx burn_smoke_seg4_sub_dl_end[];
 extern const Gfx burn_smoke_seg4_dl[];
 
+// heave_ho
+extern const GeoLayout heave_ho_geo[];
+extern const Gfx heave_ho_seg5_dl_05011D98[];
+extern const Gfx heave_ho_seg5_dl_05011DE0[];
+extern const Gfx heave_ho_seg5_dl_05011E28[];
+extern const Gfx heave_ho_seg5_dl_05011E80[];
+extern const Gfx heave_ho_seg5_dl_05011EC0[];
+extern const Gfx heave_ho_seg5_dl_050120A0[];
+extern const Gfx heave_ho_seg5_dl_05012100[];
+extern const Gfx heave_ho_seg5_dl_05012148[];
+extern const Gfx heave_ho_seg5_dl_05012300[];
+extern const Gfx heave_ho_seg5_dl_05012360[];
+extern const Gfx heave_ho_seg5_dl_050123A8[];
+extern const Gfx heave_ho_seg5_dl_05012560[];
+extern const Gfx heave_ho_seg5_dl_050125A8[];
+extern const Gfx heave_ho_seg5_dl_050125F8[];
+extern const Gfx heave_ho_seg5_dl_050126B0[];
+extern const Gfx heave_ho_seg5_dl_050126E8[];
+extern const Gfx heave_ho_seg5_dl_050127B0[];
+extern const Gfx heave_ho_seg5_dl_050127F8[];
+extern const Gfx heave_ho_seg5_dl_05014188[];
+extern const Gfx heave_ho_seg5_dl_05014560[];
+extern const Gfx heave_ho_seg5_dl_050145D0[];
+extern const Gfx heave_ho_seg5_dl_050149A8[];
+extern const Gfx heave_ho_seg5_dl_05014D80[];
+extern const struct Animation *const heave_ho_seg5_anims_0501534C[];
+
+// bully
+extern const GeoLayout bully_geo[];
+extern const GeoLayout bully_boss_geo[];
+extern const Gfx bully_seg5_dl_050002E0[];
+extern const Gfx bully_seg5_dl_05000398[];
+extern const Gfx bully_seg5_dl_05003708[];
+extern const Gfx bully_seg5_dl_050037A0[];
+extern const Gfx bully_seg5_dl_05003878[];
+extern const Gfx bully_seg5_dl_05003CD0[];
+extern const Gfx bully_seg5_dl_05003D08[];
+extern const Gfx bully_seg5_dl_05003D40[];
+extern const Gfx bully_seg5_dl_05003E38[];
+extern const Gfx bully_seg5_dl_05003E70[];
+extern const Gfx bully_seg5_dl_05003EA8[];
+extern const Gfx bully_seg5_dl_05003F80[];
+extern const Gfx bully_seg5_dl_05003FC8[];
+extern const struct Animation *const bully_seg5_anims_0500470C[];
+
 // mario
 extern const GeoLayout mario_geo_face_and_wings[];
 extern const GeoLayout mario_geo_left_hand[];

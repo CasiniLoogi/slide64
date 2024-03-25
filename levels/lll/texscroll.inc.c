@@ -27,6 +27,18 @@ void scroll_lll_dl_GeoArea2_mesh_layer_1_vtx_0() {
 	currentX += deltaX;	currentY += deltaY;
 }
 
+void scroll_gfx_mat_lll_dl_Lava_layer1() {
+	Gfx *mat = segmented_to_virtual(mat_lll_dl_Lava_layer1);
+
+
+	shift_s(mat, 10, PACK_TILESIZE(0, 1));
+	shift_t(mat, 10, PACK_TILESIZE(0, 1));
+	shift_s(mat, 15, PACK_TILESIZE(0, 1));
+	shift_t_down(mat, 15, PACK_TILESIZE(0, 1));
+
+};
+
 void scroll_lll() {
 	scroll_lll_dl_GeoArea2_mesh_layer_1_vtx_0();
+	scroll_gfx_mat_lll_dl_Lava_layer1();
 };

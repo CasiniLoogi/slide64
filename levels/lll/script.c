@@ -116,6 +116,7 @@ const LevelScript level_lll_entry[] = {
 		OBJECT(MODEL_SPINDEL_LAVA, -4325, -6389, -5777, 0, 0, 0, 0x00000000, bhvSpindelLava),
 		OBJECT(MODEL_SPINDEL_LAVA, -5325, -6389, -5777, 0, 0, 0, 0x00000000, bhvSpindelLava),
 		OBJECT(MODEL_SPINDEL_LAVA, -6325, -6389, -5777, 0, 0, 0, 0x00000000, bhvSpindelLava),
+		OBJECT(MODEL_STAR, -4825, -5694, -7470, 0, 0, 0, 0x00000000, bhvStar),
 		OBJECT(MODEL_NONE, 0, 14847, 0, 0, 0, 0, 0x00020000, bhvAirborneWarp),
 		TERRAIN(lll_area_2_collision),
 		MACRO_OBJECTS(lll_area_2_macro_objs),

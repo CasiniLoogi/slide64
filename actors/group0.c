@@ -31,4 +31,12 @@
 #include FONT_C_FILE
 #endif
 
+#include "heave_ho/model.inc.c"
+#include "heave_ho/anims/data.inc.c"
+#include "heave_ho/anims/table.inc.c"
+
+#include "bully/model.inc.c"
+#include "bully/anims/data.inc.c"
+#include "bully/anims/table.inc.c"
+
 #include "mario/collision.inc.c"

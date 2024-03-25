@@ -7,6 +7,9 @@
 
 #define MODEL_MARIO                            0x01        // mario_geo
 #define MODEL_LUIGI                            0x02        // unused
+#define MODEL_HEAVE_HO                         0x100        // heave_ho_geo
+#define MODEL_BULLY                            0x101        // bully_geo
+
 
 /* Various static level geometry, the geo layout differs but terrain object presets treat them the same.*/
 
@@ -319,11 +322,9 @@
 #define MODEL_HOOT                        0x56        // hoot_geo
 #define MODEL_YOSHI_EGG                   0x57        // yoshi_egg_geo
 #define MODEL_THWOMP                      0x58        // thwomp_geo
-#define MODEL_HEAVE_HO                    0x59        // heave_ho_geo
 
 // group 2
 #define MODEL_BLARGG                      0x54        // blargg_geo
-#define MODEL_BULLY                       0x56        // bully_geo
 #define MODEL_BULLY_BOSS                  0x57        // bully_boss_geo
 
 // group 3

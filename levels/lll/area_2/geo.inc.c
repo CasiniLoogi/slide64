@@ -4,7 +4,9 @@ const GeoLayout lll_area_2_geo[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, -28, -100, 37, lll_dl_GeoArea2_mesh_layer_1),
-		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_ALPHA, -78, 11142, 1260, 0, -90, 0, lll_dl_Plane_mesh_layer_4),
+		GEO_OPEN_NODE(),
+			GEO_DISPLAY_LIST(LAYER_ALPHA, lll_dl_GeoArea2_mesh_layer_4),
+		GEO_CLOSE_NODE(),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };

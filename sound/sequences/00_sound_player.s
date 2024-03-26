@@ -4094,38 +4094,13 @@ layer_note1 31, 0x14, 127
 layer_end
 
 .sound_general_red_coin:
-chan_setbank 9
-chan_setinstr 3
-# chan_setenvelope .envelope_3378 // Envelope for EU/SH not authentic to JP sound
-chan_setlayer 0, .layer_1907
-chan_setlayer 1, .layer_1902
-chan_setlayer 2, .layer_1909
+chan_setbank 5
+chan_setinstr 16
+chan_setlayer 0, .layer_1337
 chan_end
 
-.layer_1902:
-layer_transpose 7
-layer_jump .layer_190B
-
-.layer_1907:
-layer_delay 0x6
-
-.layer_1909:
-layer_transpose 12
-.layer_190B:
-layer_note0 46, 0xc, 90, 20
-layer_note0 45, 0xc, 90, 20
-layer_note0 46, 0xc, 90, 20
-layer_note0 58, 0x10, 100, 80
-layer_note0 58, 0x10, 60, 80
-layer_note0 58, 0x10, 40, 80
-layer_note0 58, 0x10, 25, 80
-// This small delay should not have any effect, but decreases the probability of
-// encountering double red coin glitch. Without it, layer 0 finishes in 1.04
-// seconds, and with some bad luck around scheduling/lag the sound spawner with
-// a lifetime of 30 frames that creates the sound may deactivate on the same
-// frame. That leads to double sound glitch on JP, see src/audio/external.c.
-// With the delay, the same thing can still happen but requires more CPU lag.
-layer_delay 0xa
+.layer_1337:
+layer_note1 39, 0x28, 127
 layer_end
 
 .sound_general_birds_fly_away:

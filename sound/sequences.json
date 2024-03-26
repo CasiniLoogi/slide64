@@ -38,5 +38,6 @@
 	"23_fleet_glide": ["26"],
 	"24_space_junk": ["27"],
 	"25_daisy_circuit": ["28"],
-	"26_dead": ["29"]
+	"26_dead": ["29"],
+    "27_purple_coin": ["2A"]
 }

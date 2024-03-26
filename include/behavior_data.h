@@ -402,6 +402,7 @@ extern const BehaviorScript bhvStar[];
 extern const BehaviorScript bhvStarSpawnCoordinates[];
 extern const BehaviorScript bhvHiddenRedCoinStar[];
 extern const BehaviorScript bhvRedCoin[];
+extern const BehaviorScript bhvPurpleCoin[];
 extern const BehaviorScript bhvBowserCourseRedCoinStar[];
 extern const BehaviorScript bhvHiddenStar[];
 extern const BehaviorScript bhvHiddenStarTrigger[];

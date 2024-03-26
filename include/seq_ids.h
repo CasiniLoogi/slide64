@@ -49,6 +49,7 @@ enum SeqId {
 	SEQ_SPACE_JUNK,
     SEQ_DAISY_CIRCUIT,
     SEQ_DEATH,
+    SEQ_PURPLE_COIN,
     SEQ_COUNT
 };
 

@@ -228,7 +228,7 @@ const LevelScript level_bob_entry[] = {
 		OBJECT_WITH_ACTS(MODEL_RED_COIN, 7920, -1099, 3279, 0, 0, 0, 0x00000000, bhvPurpleCoin, ACT_3),
 		OBJECT_WITH_ACTS(MODEL_RED_COIN, 8071, -1112, 2277, 0, 0, 0, 0x00000000, bhvPurpleCoin, ACT_3),
 		OBJECT_WITH_ACTS(MODEL_NONE, 6422, -9979, -8959, 0, 0, 0, (02 << 24) | (100 << 16), bhvHiddenRedCoinStar, ACT_3),
-		OBJECT(MODEL_STAR, 2893, -9879, -8819, 0, 0, 0, (01 << 24), bhvStar),
+		OBJECT(MODEL_STAR, 2893, -9879, -8819, 0, 0, 0, 0x00000000, bhvStar),
 		OBJECT(MODEL_NONE, -1482, 11058, 627, 0, 0, 0, 0x000A0000, bhvSpinAirborneWarp),
 		MARIO_POS(0x01, 0, -1482, 11058, 627),
 		OBJECT(MODEL_NONE, 6131, -10686, -783, 0, 0, 0, 0x00000000, bhvWaterfallSoundLoop),

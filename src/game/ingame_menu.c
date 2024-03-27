@@ -1754,7 +1754,7 @@ void render_pause_castle_course_stars(s16 x, s16 y, s16 fileIndex, s16 courseInd
         nextStar++;
     }
 
-    if (starCount == nextStar && starCount != 6) {
+    if (starCount == nextStar && starCount != 3) {
         str[nextStar * 2] = DIALOG_CHAR_STAR_OPEN;
         str[nextStar * 2 + 1] = DIALOG_CHAR_SPACE;
         nextStar++;
@@ -1814,12 +1814,12 @@ void render_pause_castle_main_strings(s16 x, s16 y) {
         print_generic_string(x + 34, y - 5, textCoin);
         int_to_str(save_file_get_course_coin_score(gCurrSaveFileNum - 1, gDialogLineNum), strVal);
         print_generic_string(x + 54, y - 5, strVal);
-    } else { // Castle secret stars
+    } else { // Total stars
         u8 textStarX[] = { TEXT_STAR_X };
         courseName = segmented_to_virtual(courseNameTbl[COURSE_MAX]);
         print_generic_string(x + 40, y + 13, textStarX);
         int_to_str(save_file_get_total_star_count(gCurrSaveFileNum - 1,
-                                                  COURSE_NUM_TO_INDEX(COURSE_BONUS_STAGES),
+                                                  COURSE_NUM_TO_INDEX(COURSE_MIN),
                                                   COURSE_NUM_TO_INDEX(COURSE_MAX)),
                                                   strVal);
         print_generic_string(x + 60, y + 13, strVal);

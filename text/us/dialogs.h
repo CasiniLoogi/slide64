@@ -1572,35 +1572,42 @@ disqualified! Next time,\n\
 play fair!"))
 
 DEFINE_DIALOG(DIALOG_133, 1, 6, 30, 200, _("\
-Am I glad to see you! The\n\
-Princess...and I...and,\n\
-well, everybody...we're all\n\
-trapped inside the castle\n\
-walls.\n\
+Hey Mario! Check this\n\
+shit out! I installed\n\
+blender and learned how\n\
+to use fast64. \n\
 \n\
-Bowser has stolen the\n\
-castle's Stars, and he's\n\
-using their power to\n\
-create his own world in\n\
-the paintings and walls.\n\
 \n\
-Please recover the Power\n\
-Stars! As you find them,\n\
-you can use their power\n\
-to open the doors that\n\
-Bowser has sealed.\n\
+I made this sick ass\n\
+lobby. Feel free to\n\
+stop for a minute\n\
+and take it in.\n\
+Truly a sight to\n\
+behold, isn't it?\n\
+What's that? You wanna\n\
+go back? Sure, you're\n\
+gonna wanna...uhh...\n\
+okay, minor problem.\n\
 \n\
-There are four rooms on\n\
-the first floor. Start in\n\
-the one with the painting\n\
-of Bob-omb inside. It's\n\
-the only room that Bowser\n\
-hasn't sealed.\n\
-When you collect eight\n\
-Power Stars, you'll be\n\
-able to open the door\n\
-with the big star. The\n\
-Princess must be inside!"))
+\n\
+It seems my dumbass\n\
+forgot to install a\n\
+warp back to the\n\
+normal castle...\n\
+\n\
+\n\
+Alright maybe I should\n\
+have thought things out\n\
+before messing with the\n\
+fabric of reality. Hmm...\n\
+\n\
+\n\
+Well, the most probable\n\
+solution to me would be\n\
+to just go through the\n\
+levels and hope that\n\
+things go back to normal\n\
+once the credits roll."))
 
 DEFINE_DIALOG(DIALOG_134, 1, 5, 30, 200, _("\
 The names of the Stars\n\

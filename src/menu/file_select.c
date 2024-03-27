@@ -1841,9 +1841,9 @@ void print_score_file_castle_secret_stars(s8 fileIndex, s16 x, s16 y) {
     unsigned char secretStarsText[20];
     // Print "[star] x"
     print_menu_generic_string(x, y, textStarX);
-    // Print number of castle secret stars
+    // Print number of stars
     int_to_str(save_file_get_total_star_count(fileIndex,
-                                              COURSE_NUM_TO_INDEX(COURSE_BONUS_STAGES),
+                                              COURSE_NUM_TO_INDEX(COURSE_MIN),
                                               COURSE_NUM_TO_INDEX(COURSE_MAX)),
                                               secretStarsText);
     print_menu_generic_string(x + 16, y, secretStarsText);

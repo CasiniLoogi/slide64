@@ -140,7 +140,7 @@ void bhv_act_selector_init(void) {
     }
 
     // If the stars have been collected in order so far, show the next star.
-    if (sVisibleStars == sObtainedStars && sVisibleStars != 6) {
+    if (sVisibleStars == sObtainedStars && sVisibleStars != 3) {
         selectorModelIDs[sVisibleStars] = MODEL_TRANSPARENT_STAR;
         sInitSelectedActNum = sVisibleStars + 1;
         sSelectableStarIndex = sVisibleStars;
@@ -148,7 +148,7 @@ void bhv_act_selector_init(void) {
     }
 
     // If all stars have been collected, set the default selection to the last star.
-    if (sObtainedStars == 6) {
+    if (sObtainedStars == 3) {
         sInitSelectedActNum = sVisibleStars;
     }
 

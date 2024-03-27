@@ -12,7 +12,7 @@ extern u8 bob_dl_Tree_ci4[];
 extern u8 bob_dl_Tree_pal_rgba16[];
 extern u8 bob_dl_Sand_ci4[];
 extern u8 bob_dl_Sand_pal_rgba16[];
-extern Vtx bob_dl_GeoMain_mesh_layer_1_vtx_0[2780];
+extern Vtx bob_dl_GeoMain_mesh_layer_1_vtx_0[2779];
 extern Gfx bob_dl_GeoMain_mesh_layer_1_tri_0[];
 extern Vtx bob_dl_GeoMain_mesh_layer_1_vtx_1[54];
 extern Gfx bob_dl_GeoMain_mesh_layer_1_tri_1[];

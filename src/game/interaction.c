@@ -1892,7 +1892,7 @@ void pss_end_slide(struct MarioState *m) {
         }
         if (gCurrLevelNum == LEVEL_SSL) {
             if(slideTime < 1575) {
-                spawn_default_star(-3192.0f, -2258.0f, -14467.0f);
+                spawn_default_star(-3732.0f, -5900.0f, -4006.0f);
             }
         }
         if (gCurrLevelNum == LEVEL_LLL) {

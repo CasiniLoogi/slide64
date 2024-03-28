@@ -11,7 +11,7 @@
 static struct ObjectHitbox sPurpleCoinHitbox = {
     /* interactType:      */ INTERACT_COIN,
     /* downOffset:        */ 0,
-    /* damageOrCoinValue: */ 0,
+    /* damageOrCoinValue: */ 1,
     /* health:            */ 0,
     /* numLootCoins:      */ 0,
     /* radius:            */ 100,

@@ -1886,13 +1886,13 @@ void pss_end_slide(struct MarioState *m) {
     if (sPssSlideStarted) {
         u16 slideTime = level_control_timer(TIMER_CONTROL_STOP);
         if (gCurrLevelNum == LEVEL_BOB) {
-            if(slideTime < 1575) {
+            if(slideTime < 1500) {
                 spawn_default_star(0.0f, -9878.0f, -9389.0f);
             }
         }
         if (gCurrLevelNum == LEVEL_SSL) {
-            if(slideTime < 1575) {
-                spawn_default_star(-3732.0f, -5900.0f, -4006.0f);
+            if(slideTime < 2100) {
+                spawn_default_star(-3732.0f, -5900.0f, -400.0f);
             }
         }
         if (gCurrLevelNum == LEVEL_LLL) {

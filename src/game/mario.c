@@ -887,7 +887,7 @@ u32 set_mario_action_moving(struct MarioState *m, u32 action, UNUSED u32 actionA
             if (mario_facing_downhill(m, FALSE)) {
                 action = ACT_BUTT_SLIDE;
             } else {
-                action = ACT_STOMACH_SLIDE;
+                action = ACT_BUTT_SLIDE;
             }
             break;
 
@@ -895,7 +895,7 @@ u32 set_mario_action_moving(struct MarioState *m, u32 action, UNUSED u32 actionA
             if (mario_facing_downhill(m, FALSE)) {
                 action = ACT_HOLD_BUTT_SLIDE;
             } else {
-                action = ACT_HOLD_STOMACH_SLIDE;
+                action = ACT_BUTT_SLIDE;
             }
             break;
     }

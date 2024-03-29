@@ -29,7 +29,7 @@ void scroll_bob_dl_GeoMain_mesh_layer_1_vtx_2() {
 
 void scroll_bob_dl_GeoMain_mesh_layer_5_vtx_0() {
 	int i = 0;
-	int count = 67;
+	int count = 72;
 	int height = 128 * 0x20;
 
 	static int currentY = 0;

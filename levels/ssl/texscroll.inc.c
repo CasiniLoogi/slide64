@@ -1,4 +1,4 @@
-void scroll_ssl_dl_GeoMain_mesh_layer_1_vtx_0() {
+void scroll_ssl_dl_GeoMain_mesh_layer_1_vtx_5() {
 	int i = 0;
 	int count = 9;
 	int width = 64 * 0x20;
@@ -8,7 +8,7 @@ void scroll_ssl_dl_GeoMain_mesh_layer_1_vtx_0() {
 	int deltaX;
 	static int currentY = 0;
 	int deltaY;
-	Vtx *vertices = segmented_to_virtual(ssl_dl_GeoMain_mesh_layer_1_vtx_0);
+	Vtx *vertices = segmented_to_virtual(ssl_dl_GeoMain_mesh_layer_1_vtx_5);
 
 	deltaX = (int)(-0.75 * 0x20) % width;
 	deltaY = (int)(0.5 * 0x20) % height;
@@ -28,5 +28,5 @@ void scroll_ssl_dl_GeoMain_mesh_layer_1_vtx_0() {
 }
 
 void scroll_ssl() {
-	scroll_ssl_dl_GeoMain_mesh_layer_1_vtx_0();
+	scroll_ssl_dl_GeoMain_mesh_layer_1_vtx_5();
 };

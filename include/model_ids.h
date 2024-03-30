@@ -9,6 +9,7 @@
 #define MODEL_LUIGI                            0x02        // unused
 #define MODEL_HEAVE_HO                         0x100        // heave_ho_geo
 #define MODEL_BULLY                            0x101        // bully_geo
+#define MODEL_TOAD                             0x102        // toad_geo
 
 
 /* Various static level geometry, the geo layout differs but terrain object presets treat them the same.*/
@@ -541,7 +542,6 @@
 #define MODEL_METAL_BOX_DL                0xDA        // metal_box_dl
 #define MODEL_NUMBER                      0xDB        // number_geo
 #define MODEL_FLYGUY                      0xDC        // shyguy_geo
-#define MODEL_TOAD                        0xDD        // toad_geo
 #define MODEL_PEACH                       0xDE        // peach_geo
 #define MODEL_CHUCKYA                     0xDF        // chuckya_geo
 #define MODEL_WHITE_PUFF                  0xE0        // white_puff_geo

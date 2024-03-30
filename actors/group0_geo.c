@@ -7,6 +7,7 @@
 #include "common1.h"
 #include "group0.h"
 
+#include "toad/geo.inc.c"
 #include "bubble/geo.inc.c"
 #include "walk_smoke/geo.inc.c"
 #include "burn_smoke/geo.inc.c"

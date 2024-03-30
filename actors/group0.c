@@ -26,6 +26,11 @@
 
 #include "sparkle_animation/model.inc.c"
 
+#include "toad/model.inc.c"
+#include "toad/anims/data.inc.c"
+#include "toad/anims/table.inc.c"
+UNUSED static const u64 binid_1 = 1;
+
 #ifdef S2DEX_TEXT_ENGINE
 #include "src/s2d_engine/s2d_config.h"
 #include FONT_C_FILE

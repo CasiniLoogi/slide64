@@ -1,0 +1,14 @@
+extern const GeoLayout castle_courtyard_area_1_geo[];
+extern const GeoLayout castle_courtyard_area_1[];
+extern const Collision castle_courtyard_area_1_collision[];
+extern const MacroObject castle_courtyard_area_1_macro_objs[];
+extern u8 castle_courtyard_dl_Grass_i8[];
+extern Vtx castle_courtyard_dl_GeoMain_mesh_layer_1_vtx_0[2456];
+extern Gfx castle_courtyard_dl_GeoMain_mesh_layer_1_tri_0[];
+extern Vtx castle_courtyard_dl_GeoMain_mesh_layer_1_vtx_1[10];
+extern Gfx castle_courtyard_dl_GeoMain_mesh_layer_1_tri_1[];
+extern Gfx mat_castle_courtyard_dl_VCol[];
+extern Gfx mat_revert_castle_courtyard_dl_VCol[];
+extern Gfx mat_castle_courtyard_dl_Grass[];
+extern Gfx mat_revert_castle_courtyard_dl_Grass[];
+extern Gfx castle_courtyard_dl_GeoMain_mesh_layer_1[];

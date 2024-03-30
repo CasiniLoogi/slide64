@@ -315,7 +315,7 @@ Stars."))
 
 DEFINE_DIALOG(DIALOG_027, 1, 4, 95, 200, _("\
 It takes the power of\n\
-30 Stars to open this\n\
+9 Stars to open this\n\
 door. You need [%] more\n\
 Stars."))
 
@@ -1610,21 +1610,41 @@ things go back to normal\n\
 once the credits roll."))
 
 DEFINE_DIALOG(DIALOG_134, 1, 5, 30, 200, _("\
-The names of the Stars\n\
-are also hints for\n\
-finding them. They are\n\
-displayed at the beginning\n\
-of each course.\n\
-You can collect the Stars\n\
-in any order. You won't\n\
-find some Stars, enemies\n\
-or items unless you select\n\
-a specific Star.\n\
-After you collect some\n\
-Stars, you can try\n\
-another course.\n\
-We're all waiting for\n\
-your help!"))
+Thank you so much\n\
+for playing my hack!\n\
+I'm really glad you got\n\
+to play it from\n\
+beginning to end.\n\
+This is my first\n\
+SM64 hack. I learned\n\
+how to use fast64\n\
+specifically for this\n\
+competition.\n\
+Working with a deadline\n\
+was really difficult \n\
+and forced me to scrap\n\
+so many ideas.\n\
+\n\
+Many levels have blatant\n\
+issues that I simply\n\
+wasn't able to fix on time\n\
+and I'm a little \n\
+dissapointed.\n\
+On the contrary, I\n\
+learned more about rom\n\
+hacking in this past\n\
+month than I have\n\
+in a year.\n\
+In the end, I'm glad I\n\
+set aside the time to\n\
+make this and I really\n\
+hope you enjoyed\n\
+\n\
+P.S. I do Mario Kart\n\
+custom tracks, if you\n\
+think that's cool you\n\
+should check them out\n\
+youtube.com/@CasiniLoogi"))
 
 DEFINE_DIALOG(DIALOG_135, 1, 5, 30, 200, _("\
 It was Bowser who stole\n\

@@ -1036,7 +1036,7 @@ u32 interact_door(struct MarioState *m, UNUSED u32 interactType, struct Object *
                 case  1: text = DIALOG_024 << 16; break;
                 case  3: text = DIALOG_025 << 16; break;
                 case  6: text = DIALOG_026 << 16; break;
-                case 30: text = DIALOG_027 << 16; break;
+                case 9: text = DIALOG_027 << 16; break;
                 case 50: text = DIALOG_028 << 16; break;
                 case 70: text = DIALOG_029 << 16; break;
             }
@@ -1891,13 +1891,13 @@ void pss_end_slide(struct MarioState *m) {
             }
         }
         if (gCurrLevelNum == LEVEL_SSL) {
-            if(slideTime < 2100) {
+            if(slideTime < 2250) {
                 spawn_default_star(-3732.0f, -5900.0f, -400.0f);
             }
         }
         if (gCurrLevelNum == LEVEL_LLL) {
-            if(slideTime < 1575) {
-                spawn_default_star(-4025.0f, -5693.0f, -7469.0f);
+            if(slideTime < 1650) {
+                spawn_default_star(-3954.0f, -6115.0f, -8720.0f);
             }
         }
         sPssSlideStarted = FALSE;

@@ -445,7 +445,7 @@ void init_mario_after_warp(void) {
 #endif
 
 //Making sure the level isn't the castle is necessary because for whatever reason despite exiting the level, the current act is retained. You learn something new every day
-if (gCurrActNum == 3 && gCurrLevelNum != LEVEL_CASTLE_GROUNDS) {
+if ((gCurrActNum == 3) && (gCurrLevelNum != LEVEL_CASTLE_GROUNDS && gCurrLevelNum != LEVEL_CASTLE_COURTYARD)) {
     play_music(SEQ_PLAYER_LEVEL, SEQUENCE_ARGS(4, SEQ_PURPLE_COIN), 0);
     }
 }

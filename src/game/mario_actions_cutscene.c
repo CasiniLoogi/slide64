@@ -227,7 +227,6 @@ s32 get_star_collection_dialog(struct MarioState *m) {
 
 // save menu handler
 void handle_save_menu(struct MarioState *m) {
-    s32 dialogID;
     // wait for the menu to show up
     if (is_anim_past_end(m) && gSaveOptSelectIndex != MENU_OPT_NONE) {
         // save and continue / save and quit
@@ -243,15 +242,7 @@ void handle_save_menu(struct MarioState *m) {
         if (gSaveOptSelectIndex != MENU_OPT_SAVE_AND_QUIT) {
             disable_time_stop();
             m->faceAngle[1] += 0x8000;
-            // figure out what dialog to show, if we should
-            dialogID = get_star_collection_dialog(m);
-            if (dialogID) {
-                play_peachs_jingle();
-                // look up for dialog
-                set_mario_action(m, ACT_READING_AUTOMATIC_DIALOG, dialogID);
-            } else {
-                set_mario_action(m, ACT_IDLE, 0);
-            }
+            set_mario_action(m, ACT_IDLE, 0);
         }
     }
 }
